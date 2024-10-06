@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Câu 2 || Bài 6</title>
+  </head>
+  <body>
+    <h2>Câu 2: Category (Danh sách danh mục)</h2>
+    <p><strong>Yêu cầu: </strong>Sử dụng HTML và CSS để dựng khối bên dưới.</p>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: auto;
+      }
+      .section {
+        background-color: #f9f9f9;
+        padding: 80px;
+        font-family: "Be Vietnam Pro", sans-serif;
+      }
+      .container {
+        width: 1180px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .title {
+        font-size: 48px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 0;
+        color: #192335;
+      }
+      .list {
+        width: 1180px;
+        height: 287px;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 50%;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .item {
+        width: 280px;
+        height: 287px;
+        margin: 0 20px 0 0;
+        padding: 15px;
+        text-align: center;
+        border-radius: 12px;
+        background: #ffffff;
+      }
+      a {
+        text-decoration: none;
+      }
+      .item:nth-child(4) {
+        margin-right: 0;
+      }
+      .item .inner-image img {
+        width: 100%;
+        height: 150px;
+        border-radius: 8px;
+        object-fit: contain;
+      }
+      .item .inner-icon {
+        width: 70px;
+        height: 70px;
+        background: #ffffff;
+        border-radius: 50%;
+        margin-top: -35px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        padding: 15px;
+        border: 2px solid #2f57ef;
+      }
+      .item .inner-icone img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+      .item .inner-title {
+        margin-top: 15px;
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      .item .inner-title a {
+        color: #192335;
+      }
+      .item .inner-title a:hover {
+        color: #2f57ef;
+      }
+      .item .inner-button {
+        font-size: 13px;
+        font-weight: 500;
+        color: #192335;
+      }
+      .item .inner-button i {
+        margin-left: 5px;
+      }
+      .item .inner-button:hover {
+        color: #2f57ef;
+      }
+    </style>
+    <div class="section">
+      <div class="container">
+        <h2 class="title">Danh sách danh mục</h2>
+        <div class="list">
+          <div class="item">
+            <a href="#" class="inner-image">
+              <img src="image-1.jpg" />
+            </a>
+            <div class="inner-icon">
+              <img src="web-design.png" width="36px" height="36px" />
+            </div>
+            <h3 class="inner-title">
+              <a href="#">Web Design</a>
+            </h3>
+            <a href="#" class="inner-button">
+              35 Khóa học
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="item">
+            <a href="#" class="inner-image">
+              <img src="image-2.jpg" />
+            </a>
+            <div class="inner-icon">
+              <img src="web-design.png" width="36px" height="36px" />
+            </div>
+            <h3 class="inner-title">
+              <a href="#">Graphic Design</a>
+            </h3>
+            <a href="#" class="inner-button">
+              35 Khóa học
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="item">
+            <a href="#" class="inner-image">
+              <img src="image-3.jpg" />
+            </a>
+            <div class="inner-icon">
+              <img src="personal.png" width="36px" height="36px" />
+            </div>
+            <h3 class="inner-title">
+              <a href="#">Development</a>
+            </h3>
+            <a href="#" class="inner-button">
+              35 Khóa học
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="item">
+            <a href="#" class="inner-image">
+              <img src="image-4.jpg" />
+            </a>
+            <div class="inner-icon">
+              <img src="server.png" width="36px" height="36px" />
+            </div>
+            <h3 class="inner-title">
+              <a href="#">IT and Software</a>
+            </h3>
+            <a href="#" class="inner-button">
+              35 Khóa học
+              <i></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

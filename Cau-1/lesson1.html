@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Câu 1 || Bài 6</title>
+  </head>
+  <body>
+    <h2>Câu 1: Brands (Các thương hiệu)</h2>
+    <p>
+      <b>Yêu cầu: </b>Sử dụng HTML và CSS để dựng khối bên dưới (Dùng display:
+      flex;).
+    </p>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+      }
+      .section {
+        background-color: #f9f9f9;
+        padding: 80px 0;
+      }
+      .container {
+        width: 1180px;
+        height: 279px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .title {
+        font-size: 48px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 0;
+      }
+      .list {
+        display: flex;
+        flex-wrap: wrap;
+        border: 1px solid #ddd;
+      }
+      .item {
+        width: 25%;
+        border: 1px solid #ddd;
+        padding: 30px;
+      }
+      .item img {
+        width: 100%;
+        height: 30px;
+        object-fit: contain;
+      }
+    </style>
+    <div class="section">
+      <div class="container">
+        <h2 class="title">Thương hiệu nổi bật</h2>
+        <div class="list">
+          <a href="#" class="item">
+            <img src="Brand-1.png" alt="Brand 1" width="233px" height="30px" />
+          </a>
+          <a href="#" class="item">
+            <img src="brand-02.png" alt="Brand-2" width="233px" height="30px" />
+          </a>
+          <a href="#" class="item">
+            <img src="brand-03.png" alt="Brand-3" width="233px" height="30px" />
+          </a>
+          <a href="#" class="item">
+            <img src="brand-04.png" alt="Brand-4" width="233px" height="30px" />
+          </a>
+          <a href="#" class="item">
+            <img src="brand-05.png" alt="Brand-5" width="233px" height="30px" />
+          </a>
+          <a href="#" class="item">
+            <img src="brand-06.png" alt="Brand-6" width="233px" height="30px" />
+          </a>
+          <a href="#" class="item">
+            <img src="brand-06.png" alt="Brand-7" width="233px" height="30px" />
+          </a>
+          <a href="#" class="item">
+            <img src="brand-06.png" alt="Brand-8" width="233px" height="30px" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
